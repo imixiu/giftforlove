@@ -1,0 +1,30 @@
+{
+  "name": "giftforlove",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cf:build": "npx @opennextjs/cloudflare@latest build",
+    "cf:deploy": "npx wrangler deploy",
+    "cf:preview": "npx wrangler dev"
+  },
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "mysql2": "^3.22.5"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "1.19.11",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.4",
+    "tsx": "^4.19.4",
+    "typescript": "^5",
+    "wrangler": "4.99.0"
+  }
+}
