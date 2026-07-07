@@ -4,13 +4,13 @@ export interface TypeSeo {
 }
 
 export const TYPE_SEO: Record<string, TypeSeo> = {
-  dad: {
-    title: "Gift Ideas for Dad — Thoughtful Presents He'll Love",
-    description: "Find the perfect gift for your father. From practical tools and tech gadgets to heartfelt keepsakes and experience gifts, discover ideas that show Dad how much you care.",
+  forher: {
+    title: "Gift Ideas for Her — Thoughtful & Elegant",
+    description: "Find the perfect gift for her. From personalized jewelry and spa essentials to heartfelt keepsakes and stylish accessories — curated ideas for every woman in your life.",
   },
-  mom: {
-    title: "Gift Ideas for Mom — Show Her How Much She Means",
-    description: "Curated gift ideas for Mom that go beyond flowers. Explore spa essentials, personalized jewelry, gourmet treats, and thoughtful surprises for every occasion.",
+  forhim: {
+    title: "Gift Ideas for Him — Practical & Meaningful",
+    description: "Curated gift ideas for him. Tech gadgets, outdoor gear, refined accessories, and experience-based gifts — discover thoughtful presents he'll actually love.",
   },
   partner: {
     title: "Gift Ideas for Your Partner — Romantic & Meaningful",

@@ -15,8 +15,8 @@ export const siteConfig = {
     accent: "#D4A853",
   },
   categories: [
-    { key: "dad", label: "For Dad", description: "Thoughtful gift ideas for the father who deserves the best — from practical tools to heartfelt keepsakes." },
-    { key: "mom", label: "For Mom", description: "Show your love with curated gifts for Mom — spa essentials, personalized treasures, and heartfelt surprises." },
+    { key: "forhim", label: "For Him", description: "Thoughtful gift ideas for him — from tech gadgets and outdoor gear to refined accessories and heartfelt keepsakes." },
+    { key: "forher", label: "For Her", description: "Show your love with curated gifts for her — jewelry, spa essentials, stylish accessories, and heartfelt surprises." },
     { key: "partner", label: "For Your Partner", description: "Romantic and meaningful gifts for your significant other — because love deserves to be celebrated." },
     { key: "kids", label: "For Kids", description: "Magical gifts that spark imagination and joy — toys, books, and experiences for children of all ages." },
     { key: "friends", label: "For Friends", description: "Celebrate your friendships with gifts that say 'you matter' — unique finds for your closest companions." },

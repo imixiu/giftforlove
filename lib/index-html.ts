@@ -4,7 +4,7 @@ export const INDEX_HTML = `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GiftFor.Love — Find the Perfect Gift for Everyone</title>
-  <meta name="description" content="Curated gift ideas for every occasion and every person you love. Discover thoughtful presents for Dad, Mom, partners, kids, friends, and colleagues.">
+  <meta name="description" content="Curated gift ideas for every occasion and every person you love. Discover thoughtful presents for him, her, partners, kids, friends, and colleagues.">
   <meta name="msvalidate.01" content="B2BF310818F98A9F551F76360C83DC37">
   <meta name="google-site-verification" content="sUsfvBNKH1wpjArOTu37MDgr1FSYI4R1-UBbOv4tmZA">
   <meta property="og:title" content="GiftFor.Love — Find the Perfect Gift for Everyone">
@@ -641,8 +641,8 @@ export const INDEX_HTML = `<!DOCTYPE html>
       <span class="logo-text">GiftFor<span class="logo-accent">.Love</span></span>
     </a>
     <nav class="main-nav">
-      <a href="/dad">For Him</a>
-      <a href="/mom">For Her</a>
+      <a href="/forhim">For Him</a>
+      <a href="/forher">For Her</a>
       <a href="/kids">For Kids</a>
       <a href="/colleagues">For Home</a>
       <a href="/birthday">Birthday</a>
@@ -675,14 +675,14 @@ export const INDEX_HTML = `<!DOCTYPE html>
       <div class="section-divider"></div>
     </div>
     <div class="person-grid">
-      <a href="/dad" class="person-card">
+      <a href="/forhim" class="person-card">
         <div class="person-card-icon">👔</div>
-        <h3>For Dad</h3>
-        <p>From practical tools to heartfelt keepsakes — gifts that show Dad how much he means to you.</p>
+        <h3>For Him</h3>
+        <p>From practical tools to heartfelt keepsakes — gifts that show him how much he means to you.</p>
       </a>
-      <a href="/mom" class="person-card">
+      <a href="/forher" class="person-card">
         <div class="person-card-icon">💐</div>
-        <h3>For Mom</h3>
+        <h3>For Her</h3>
         <p>Spa essentials, personalized treasures, and thoughtful surprises for the woman who gives everything.</p>
       </a>
       <a href="/partner" class="person-card">
@@ -794,8 +794,8 @@ export const INDEX_HTML = `<!DOCTYPE html>
       <nav class="footer-nav">
         <h4>Gift By Person</h4>
         <ul>
-          <li><a href="/dad">For Dad</a></li>
-          <li><a href="/mom">For Mom</a></li>
+          <li><a href="/forhim">For Him</a></li>
+          <li><a href="/forher">For Her</a></li>
           <li><a href="/partner">For Partner</a></li>
           <li><a href="/kids">For Kids</a></li>
           <li><a href="/friends">For Friends</a></li>

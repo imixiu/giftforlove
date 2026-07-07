@@ -9,6 +9,12 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  "routes": [
+    {
+      "pattern": "giftfor.love/*",
+      "zone_name": "giftfor.love"
+    }
+  ],
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
