@@ -5,7 +5,7 @@ export const INDEX_HTML = `<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GiftFor.Love — Find the Perfect Gift for Everyone</title>
   <meta name="description" content="Curated gift ideas for every occasion and every person you love. Discover thoughtful presents for him, her, partners, kids, friends, and colleagues.">
-  <meta name="msvalidate.01" content="B2BF310818F98A9F551F76360C83DC37">
+  <meta name="msvalidate.01" content="C3539FF29AF290B02D4623B6AA6C685A">
   <meta name="google-site-verification" content="sUsfvBNKH1wpjArOTu37MDgr1FSYI4R1-UBbOv4tmZA">
   <meta property="og:title" content="GiftFor.Love — Find the Perfect Gift for Everyone">
   <meta property="og:description" content="Curated gift ideas for every occasion and every person you love.">

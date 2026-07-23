@@ -9,9 +9,12 @@ function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+const VALID_TYPES = new Set(Object.keys(TYPE_SEO));
+
 export async function GET(_req: Request, { params }: { params: Promise<{ type: string }> }) {
   try {
   const { type: rawType } = await params;
+  if (!VALID_TYPES.has(rawType)) return new Response("Not Found", { status: 404 });
   const dbType = rawType.replace(/-/g, "");
   const url = new URL(_req.url);
 

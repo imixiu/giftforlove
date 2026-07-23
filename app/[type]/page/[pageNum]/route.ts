@@ -9,8 +9,11 @@ function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+const VALID_TYPES = new Set(Object.keys(TYPE_SEO));
+
 export async function GET(_req: Request, { params }: { params: Promise<{ type: string; pageNum: string }> }) {
   const { type: rawType, pageNum } = await params;
+  if (!VALID_TYPES.has(rawType)) return new Response("Not Found", { status: 404 });
   const page = parseInt(pageNum, 10);
   if (isNaN(page) || page < 2) return new Response("Not Found", { status: 404 });
 
